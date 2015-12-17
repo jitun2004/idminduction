@@ -1,0 +1,12 @@
+
+	{
+	"componentName": "IDM Drivers",
+	"componentDescription": "<p>The Identity Manager Driver creates an automated link between the Identity Vault and Connected system.<p>It enables data flow within a business enterprise based on its own unique requirements, and eliminates the labour-intensive and error-prone practice of re-entering the same data into multiple databases.<p>As User object records are added, modified, deactivated (disabled), or deleted in Connected system or the Identity Vault, network tasks associated with these events can be processed automatically.<p>Administrators can decide what data will be shared and how data will be presented within their enterprises.",	
+	"why": "",
+	"architecture": "", 
+	"videos": "",
+	"reference": "Documents: <a href='https://www.netiq.com/documentation/idm45drivers/' target='_blank' >Click Here </a>",
+	"tasks" : "",
+	"fileLocation" : "Download : <a href='http://164.99.162.210/induction/IDM_Drivers.odp' target='_blank' > Driver's ppt</a> </br> Download : <a href='http://164.99.162.210/induction/PCRS.pptx' target='_blank' >PSRS ppt</a>",
+	"component_creater" : "Ranjit"
+}

@@ -1,0 +1,12 @@
+
+	{
+		"componentName": "Designer",
+		"componentDescription": "TB added",	
+		"why": "TB added",
+		"architecture": "", 
+		"videos": "",
+		"reference": "Documents: <a href='' target='_blank' >Click Here </a>",
+		"tasks" : "Create a Driver in Designer , deploy to Live IDm server and complete atleast one Create, Modify Delete user",
+		"fileLocation" : "",
+		"component_creater" : "Kalyani"
+}

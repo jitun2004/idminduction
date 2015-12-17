@@ -1,0 +1,12 @@
+
+	{
+		"componentName": "Groups",
+		"componentDescription": "Grop of users cobinely creates as static, nested dynami c groups",	
+		"why": "To assign rights",
+		"architecture": "", 
+		"videos": "",
+		"reference": "Documents: <a href='' target='_blank' >Click Here </a>",
+		"tasks" : "Create groupAdd groups in cyclic manner",
+		"fileLocation" : "",
+		"component_creater" : "Sekhar"
+}
