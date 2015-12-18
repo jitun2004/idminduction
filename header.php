@@ -42,7 +42,7 @@
 									<li><a href="select_component.php">Modify Component</a></li>
 									<hr>
 									<li><a href="#">Update Status</a></li>
-									<li><a href="#">Progress Report</a></li>
+									<li><a href="select_user_progress.php">Progress Report</a></li>
 								  </ul>
 								</li>
 								<li class="dropdown">
@@ -104,7 +104,7 @@
 							<li><a href="select_component.php">Modify Component</a></li>
 							<hr>
 							<li><a href="#">Update Status</a></li>
-							<li><a href="#">Progress Report</a></li>
+							<li><a href="select_user_progress.php">Progress Report</a></li>
 						  </ul>
 						</li>
 						<li class="dropdown">
