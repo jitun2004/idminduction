@@ -40,7 +40,7 @@
 			  {
 				$.ajax({
 				type: "POST",
-				url: "progress_update.php",
+				url: "/idminduction/progress/progress_update.php",
 				data: {value:val}
 				})
 			  }
@@ -60,7 +60,7 @@
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is <?php echo $json_get[componentName]; ?>? </a>
         </h4>
-		<label class="pull-right"><input type="checkbox" value="what_<?php echo $compid; ?>" title="Completed - What is <?php echo $json_get[componentName]; ?>" onclick="update(this.value)"></label>
+		<label class="pull-right"><input type="checkbox" value="what_<?php echo $compid."_".$_SESSION['userName']; ?>" title="Completed - What is <?php echo $json_get[componentName]; ?>" onclick="update(this.value)"></label>
       </div>
       <div id="collapse1" class="panel-collapse collapse in">
         <div class="panel-body"><?php echo $json_get[componentDescription]; ?></div>
@@ -72,7 +72,7 @@
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Why we need <?php echo $json_get[componentName]; ?>?</a>
         </h4>
-		<label class="pull-right"><input type="checkbox" value="why_<?php echo $compid; ?>" title="Completed - Why we need <?php echo $json_get[componentName]; ?>"onclick="update(this.value)"></label>
+		<label class="pull-right"><input type="checkbox" value="why_<?php echo $compid."_".$_SESSION['userName']; ?>" title="Completed - Why we need <?php echo $json_get[componentName]; ?>"onclick="update(this.value)"></label>
       </div>
       <div id="collapse2" class="panel-collapse collapse">
         <div class="panel-body"><?php echo $json_get[why]; ?></div>
@@ -97,7 +97,7 @@
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Architecture of '.$json_get[componentName].'?</a>
         </h4>
-		<label class="pull-right"><input type="checkbox" value="arch_'.$compid.'" title="Completed - Architecture of '.$json_get[componentName] .'"onclick="update(this.value)"></label>
+		<label class="pull-right"><input type="checkbox" value="arch_'.$compid.'_'.$_SESSION['userName'].'" title="Completed - Architecture of '.$json_get[componentName] .'"onclick="update(this.value)"></label>
       </div>
       <div id="collapse3" class="panel-collapse collapse">
         <div class="panel-body"> <img onclick="this.width=600;this.parentElement.parentElement.style.width=600" src="'.$json_get[architecture].'" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"></div>
@@ -112,7 +112,7 @@
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Videos for '.$json_get[componentName].'</a>
         </h4>
-		<label class="pull-right"><input type="checkbox" value="video_'.$compid.'" title="Completed - Videos for '.$json_get[componentName] .'"onclick="update(this.value)"></label>
+		<label class="pull-right"><input type="checkbox" value="video_'.$compid.'_'.$_SESSION['userName'].'" title="Completed - Videos for '.$json_get[componentName] .'"onclick="update(this.value)"></label>
       </div>
       <div id="collapse4" class="panel-collapse collapse">
         <div class="panel-body"><iframe width="420" height="315" src="'.$json_get[videos].'" frameborder="0" allowfullscreen></iframe></div>
@@ -137,7 +137,7 @@
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Videos for'.$json_get[componentName].'</a>
         </h4>
-		<label class="pull-right"><input type="checkbox" value="video_'.$compid.'" title="Completed - Videos for '.$json_get[componentName] .'"onclick="update(this.value)"></label>
+		<label class="pull-right"><input type="checkbox" value="video_'.$compid.'_'.$_SESSION['userName'].'" title="Completed - Videos for '.$json_get[componentName] .'"onclick="update(this.value)"></label>
       </div>
       <div id="collapse4" class="panel-collapse collapse">
         <div class="panel-body">
@@ -158,7 +158,7 @@
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Documentation for <?php echo $json_get[componentName]; ?></a>
         </h4>
-		<label class="pull-right"><input type="checkbox" value="doc_<?php echo $compid; ?>" title="Completed - Documentation for <?php echo $json_get[componentName]; ?>"onclick="update(this.value)"></label>
+		<label class="pull-right"><input type="checkbox" value="doc_<?php echo $compid."_".$_SESSION['userName']; ?>" title="Completed - Documentation for <?php echo $json_get[componentName]; ?>"onclick="update(this.value)"></label>
       </div>
       <div id="collapse5" class="panel-collapse collapse">
         <div class="panel-body"><?php echo $json_get[reference]; ?></div>
@@ -183,7 +183,7 @@
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Related files for '.$json_get[componentName].'</a>
         </h4>
-		<label class="pull-right"><input type="checkbox" value="files_'.$compid.'" title="Completed - Related files for '.$json_get[componentName] .'"onclick="update(this.value)"></label>
+		<label class="pull-right"><input type="checkbox" value="files_'.$compid.'_'.$_SESSION['userName'].'" title="Completed - Related files for '.$json_get[componentName] .'"onclick="update(this.value)"></label>
       </div>
       <div id="collapse6" class="panel-collapse collapse">
         <div class="panel-body">'.$json_get[fileLocation].'</div>
@@ -210,7 +210,7 @@
         <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">To DO Tasks for '.$json_get[componentName].'?</a>
         </h4>
-		<label class="pull-right"><input type="checkbox" value="tasks_'.$compid.'" title="Completed - To DO Tasks for '.$json_get[componentName] .'"onclick="update(this.value)"></label>
+		<label class="pull-right"><input type="checkbox" value="tasks_'.$compid.'_'.$_SESSION['userName'].'" title="Completed - To DO Tasks for '.$json_get[componentName] .'"onclick="update(this.value)"></label>
       </div>
       <div id="collapse7" class="panel-collapse collapse">
         <div class="panel-body">'.$json_get[tasks].'</div>
