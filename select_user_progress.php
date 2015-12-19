@@ -65,7 +65,7 @@
 		echo $header;
 	?>
 		<div class="container-fluid">
-			<div class="head-font" style="margin-bottom: 40px;font-size: 30px; font-family: caption; color: #E0E0E0;text-shadow: 3px 3px 6px #000000; margin-top: 20px;">
+			<div class="head-font" style="margin-bottom: 20px;font-size: 30px; font-family: caption; color: #E0E0E0;text-shadow: 3px 3px 6px #000000; margin-top: 20px;">
 				<center>Select User</center>
 			</div>
 			<div class="row">
@@ -84,7 +84,7 @@
 							</div>
 							 <div class="form-group " id="users"></div>
 							 <p>
-							<button type="submit" class="btn btn-primary" style="float:right;" onclick="progressLogic()">Submit</button>
+							<button type="submit" class="btn btn-primary" style="float:right;" onclick="progressLogic()">Check Progress</button>
 													
 					</div>
 						
