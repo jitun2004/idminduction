@@ -91,7 +91,7 @@
 					<div class="col-sm-4"></div>
 				</div>
 				
-				<div class="row" style="margin-top:30px">
+				<div class="row" style="margin-top:30px; margin-bottom:30px">
 					<div class="col-sm-2" ></div>
 						<div class="col-sm-8" id="progress_result"></div>
 					<div class="col-sm-4"></div>
