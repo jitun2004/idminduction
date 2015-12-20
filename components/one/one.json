@@ -1,0 +1,12 @@
+
+	{
+		"componentName": "one",
+		"componentDescription": "<p>hello</p>",	
+		"why": "<p>hello</p>",
+		"architecture": "<p>hello</p>", 
+		"videos": "<p>hello</p>",
+		"reference": "Documents: <a href='' target='_blank' >Click Here </a>",
+		"tasks" : "<p>hello</p>",
+		"fileLocation" : "<p>hello</p>",
+		"component_creater" : "Ranjit"
+}

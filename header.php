@@ -41,6 +41,9 @@
 									<li><a href="create_component.php">Create Component</a></li>
 									<li><a href="select_component.php">Modify Component</a></li>
 									<hr>
+									<li><a href="Select_ComponentQuiz.php">Create Quiz</a></li>
+									<li><a href="Modify_ComponentQuiz.php">Modify Quiz</a></li>
+									<hr>
 									<li><a href="#">Update Status</a></li>
 									<li><a href="select_user_progress.php">Progress Report</a></li>
 								  </ul>
