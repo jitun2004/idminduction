@@ -15,7 +15,7 @@ $dbhandle = mysql_connect($hostname, $username, $password) or die("Unable to con
 $selected = mysql_select_db("microfocus",$dbhandle);
 $result = mysql_query("select COUNT(*) from user_progress where user='".$user."' and component='".$component."'");
 $count = mysql_result($result,0);
-
+echo $count;
 /************** WHAT *****************/
 if ($count==0 && $section=='what'){
 	$sql= "insert into user_progress(user,component,what) values ('".$user."','".$component."','T')";
